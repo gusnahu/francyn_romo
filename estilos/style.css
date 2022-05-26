@@ -1,0 +1,169 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+
+
+/*--------------------LOGO--------------------*/
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+i{
+    color: darkslategray;
+    font-size: 40px;
+    position: relative;
+    left: 97.7%;
+    
+}
+
+
+/*--------------------BANNER--------------------*/
+.banner{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+
+/*--------------------HEADER CSS--------------------*/
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  background-color: #6699ff;
+}
+
+.header-buttons{
+ background-color: rgb(221, 163, 37);
+ border-radius: 5px;
+ padding: 10px;
+ color: #1d1d1d;
+ border: none;
+ cursor: pointer;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/*--------------------OFERTAS--------------------*/
+.ofertas{
+    text-align: center;
+}
+
+
+
+/*--------------------BAJO BANNER--------------------*/
+.bajobanner1{   
+    width: 150px;
+    height: auto;
+    margin: 0px 20px 20px 20px;}
+
+.bajobanner2{
+    width: 200px;
+    height: auto;
+    margin: 38px 20px 20px 20px;
+    
+}
+.bajobanner3{
+    width: 90px;
+    height: auto;
+    margin: 14px 20px 20px 20px
+}
+
+.bajobanner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.money{
+    display: block;
+    text-align:center;
+}
+
+.truck{
+display: block;
+text-align:center;
+
+}
+
+.firstplace{
+display: block;
+text-align:center;
+}
+
+
+/*--------------------MAP--------------------*/     
+.map{
+float: right;
+    width: 600px; height: 450px ;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+/*--------------------CARRITO--------------------*/
+.mas{
+   display: inline-block;
+}
+
+.finalizar{
+    float: right;
+}
+
+
+/*--------------------FOOTER--------------------*/
+.footer{
+    background-color:rgb(240, 203, 102) ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.pages{
+    margin-top: 0px;
+}
+.newsletter {
+    margin-bottom: 3%;
+}
+
+
+/*--------------------PERFIL--------------------*/
+.info-perfil {
+    margin-top: 5px;
+}
+.button-save {
+    margin-top: 5px;
+}
+
+.img-perfil {
+    height: 150px;
+    width: 150px;
+    float: right;
+}
+
+/*--------------------MEDIA--------------------*/
+@media screen and (max-width: 1108px){
+    .header-buttons{
+        display: none;
+    }
+    .user-icon{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+
+/*--------------------CONTACTO--------------------*/
+.info-contacto {
+    margin-top: 5px;
+}
