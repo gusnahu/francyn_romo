@@ -128,6 +128,7 @@ float: right;
 
 }
 
+
 .pages{
     margin-top: 0px;
 }
@@ -135,6 +136,11 @@ float: right;
     margin-bottom: 3%;
 }
 
+.logofooter{
+    width: 70%;
+    height: 70%;
+    float: right;
+}
 
 /*--------------------PERFIL--------------------*/
 .info-perfil {
