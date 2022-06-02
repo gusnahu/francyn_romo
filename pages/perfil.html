@@ -29,41 +29,60 @@
 <div>
     <img  class="img-perfil" src="../img/profileimg.png" alt="Imgperfil">
 </div>
-    <div>
-        <p><h2>Informacion Basica:</h2></p>
+
+<form>
+    <fieldset>
+      <legend>Informacion:</legend>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Nombre y apellido:</label>
+        <input type="text"  id="input-contact" class="form-control" placeholder="Pedro Ramos">
+      </div>
+        <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Dirección:</label>
+        <input type="text"  id="input-contact" class="form-control" placeholder="Av. SiempreViva 123, Buenos Aires. Argentina.">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Correo electrónico:</label>
+        <input type="text" id="input-contact" class="form-control" placeholder="Francyn@francyn.com">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Telefono:</label>
+        <input type="text"  id="input-contact" class="form-control" placeholder="+54 9 15-1234-5678">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Genero:</label>
+        <select id="disabledSelect" class="form-select">
+          <option>Masculino</option>
+          <option>Femenino</option>
+        </select>
+  
     </div>
-        <div>
-
-            <form method="get">
-            
-            Nombre: <input class="info-perfil" type="text" name="nombre" /><br />
-            
-            Apellidos: <input class="info-perfil" type="text" name="apellidos" /><br />
-            
-            Dirección: <input class="info-perfil" type="text" name="direccion" /><br />
-            
-            Correo electrónico: <input class="info-perfil" type="text" name="correo" /><br />
-            
-            Teléfono: <input class="info-perfil" type="text" name="telefono" /><br />
-            
-            </form>
-            
-            </div>
-
-            <div>
-                <p><h2>Seguridad:</h2></p>
-            </div>
-<div>
-    <form method="get">
-
-        Contraseña: <input class="info-perfil" type="text" name="Contraseña" /><br />
-            
-        Pregunta de seguridad: <input class="info-perfil" type="text" name="preguntas de seguridad" /><br />
-
-        <div><button type="button" class="button-save">Guardar</button></div>
-
-</form>
-</div>
+      <button type="submit" class="btn btn-primary">Guardar</button>
+    </fieldset>
+  </form>
+  
+  <form>
+    <fieldset>
+      <legend>Seguridad</legend>
+      <div class="mb-3">
+        <label for="disabledSelect" class="form-label">Pregunta de seguridad:</label>
+        <select id="select-perfil" class="form-select">
+          <option>¿Como se llama tu perro?</option>
+          <option value="1">¿Mejor amigo de la infancia?</option>
+        <option value="2">¿Como se llama tu gato?</option>
+         </select>
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Respuesta de seguridad:</label>
+        <input type="text"  id="input-pass" class="form-control" placeholder="••••••••••">
+      </div>
+        <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Contraseña:</label>
+        <input type="text"  id="input-pass" class="form-control" placeholder="••••••••••">
+      </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </fieldset>
+  </form>
 
     <hr width=100%>
 </header>
