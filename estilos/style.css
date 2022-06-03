@@ -11,8 +11,8 @@
 }
 
 i{
-    color: rgb(252, 252, 252);
-    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 230%;
     position: relative;
     left: 97.7%;
     
@@ -27,13 +27,13 @@ i{
 }
 
 /*--------------------HEADER CSS--------------------*/
-.header{
-  display: flex;
+#header{
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   top: 0;
-  width: 100%;
+  width: 100%; */
   
   background: #373B44;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
@@ -53,6 +53,7 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 .menu-icon{
     display: none;
 }
+
 
 /*--------------------OFERTAS--------------------*/
 .ofertas{
@@ -161,11 +162,15 @@ float: right;
     .header-buttons{
         display: none;
     }
-    .user-icon{
-        display: none;
-    }
+
     .menu-icon{
         display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .user-icon {
+        margin-right: 100%;
     }
 }
 
