@@ -11,8 +11,8 @@
 }
 
 i{
-    color: darkslategray;
-    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 230%;
     position: relative;
     left: 97.7%;
     
@@ -27,14 +27,18 @@ i{
 }
 
 /*--------------------HEADER CSS--------------------*/
-.header{
-  display: flex;
+#header{
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   top: 0;
-  width: 100%;
-  background-color: #6699ff;
+  width: 100%; */
+  
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .header-buttons{
@@ -49,6 +53,7 @@ i{
 .menu-icon{
     display: none;
 }
+
 
 /*--------------------OFERTAS--------------------*/
 .ofertas{
@@ -106,7 +111,7 @@ float: right;
     width: 600px; height: 450px ;
     margin-bottom: 10px;
     margin-right: 5px;
-    margin-top: 10px;
+    margin-top: 10px;   
 }
 
 /*--------------------CARRITO--------------------*/
@@ -129,43 +134,49 @@ float: right;
 }
 
 
-.pages{
-    margin-top: 0px;
-}
-.newsletter {
-    margin-bottom: 3%;
-}
-
 .logofooter{
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     float: right;
 }
+
 
 /*--------------------PERFIL--------------------*/
-.info-perfil {
-    margin-top: 5px;
-}
-.button-save {
-    margin-top: 5px;
-}
 
 .img-perfil {
-    height: 150px;
-    width: 150px;
+    height: 15%;
+    width: 15%;
     float: right;
+    margin-right: 1%;
 }
 
+#select-perfil{
+    width: 34%;
+}
+
+#input-pass{
+    width: 34.2%;
+}
 /*--------------------MEDIA--------------------*/
 @media screen and (max-width: 1108px){
     .header-buttons{
         display: none;
     }
-    .user-icon{
-        display: none;
-    }
+
     .menu-icon{
         display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .user-icon {
+        margin-right: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logofooter{
+        margin-right: 15%;
     }
 }
 
@@ -179,3 +190,7 @@ float: right;
     margin-top: 5%;
 }
 
+#input-contact{
+width: 40%;
+
+}
