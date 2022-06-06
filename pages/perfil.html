@@ -5,23 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
-    <link rel="stylesheet" href="../estilos/style.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://kit.fontawesome.com/a3c4adb788.js" crossorigin="anonymous"></script>
 </head>
 <body>
         
     <header>
-        <nav class="header">
-        <a href="../index.html"><img src="../img/zyro-image.png" alt="" class="logo"></a>    
-        <a href="Productos.html"><button type="button"class="header-buttons">Productos</button></a></a>
-        <a href="Quienes_Somos.html"><button type="button" class="header-buttons">Quienes Somos</button></a>
-        <a href="Contacto.html"><button type="button" class="header-buttons">Contacto</button></a>
-        <a href="Carrito.html"><button type="button" class="header-buttons">Carrito</button></a>
-        <a href="../pages/perfil.html" class="user-icon"><i class="fa-solid fa-circle-user"></i></a>
-        <a href="#" class="menu-icon"><img src="../img/menu.png" alt="menu icono" width="50" height="50"/></a>    
-    </nav>
-        
+
+    <nav class="navbar navbar-expand-lg bg-light" id="header">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><div class="animate__animated animate__heartBeat" >
+          <a href="../index.html"><img src="../img/zyro-image.png" alt="" class="logo"></a>
+      </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./quienes_somos.html">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="./carrito.html"><img src="../img/carro.png"></a>
+            </li>
+            <li class="user-icon">
+            <a href="../pages/perfil.html"><i class="fa-solid fa-circle-user"></i></a>
+          </li>
+          
+      </ul>
+      <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+  </div>
+</div>
+</nav>
     </header>
         
             <h1 class="title">Perfil</h1>
@@ -29,41 +55,60 @@
 <div>
     <img  class="img-perfil" src="../img/profileimg.png" alt="Imgperfil">
 </div>
-    <div>
-        <p><h2>Informacion Basica:</h2></p>
+
+<form class="animate__animated animate__fadeInLeft">
+    <fieldset>
+      <legend>Informacion:</legend>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Nombre y apellido:</label>
+        <input type="text"  id="input-contact" class="form-control" placeholder="Pedro Ramos">
+      </div>
+        <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Dirección:</label>
+        <input type="text"  id="input-contact" class="form-control" placeholder="Av. SiempreViva 123, Buenos Aires. Argentina.">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Correo electrónico:</label>
+        <input type="text" id="input-contact" class="form-control" placeholder="Francyn@francyn.com">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Telefono:</label>
+        <input type="text"  id="input-contact" class="form-control" placeholder="+54 9 15-1234-5678">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Genero:</label>
+        <select id="disabledSelect" class="form-select">
+          <option>Masculino</option>
+          <option>Femenino</option>
+        </select>
+  
     </div>
-        <div>
-
-            <form method="get">
-            
-            Nombre: <input class="info-perfil" type="text" name="nombre" /><br />
-            
-            Apellidos: <input class="info-perfil" type="text" name="apellidos" /><br />
-            
-            Dirección: <input class="info-perfil" type="text" name="direccion" /><br />
-            
-            Correo electrónico: <input class="info-perfil" type="text" name="correo" /><br />
-            
-            Teléfono: <input class="info-perfil" type="text" name="telefono" /><br />
-            
-            </form>
-            
-            </div>
-
-            <div>
-                <p><h2>Seguridad:</h2></p>
-            </div>
-<div>
-    <form method="get">
-
-        Contraseña: <input class="info-perfil" type="text" name="Contraseña" /><br />
-            
-        Pregunta de seguridad: <input class="info-perfil" type="text" name="preguntas de seguridad" /><br />
-
-        <div><button type="button" class="button-save">Guardar</button></div>
-
-</form>
-</div>
+      <button type="submit" class="btn btn-primary">Guardar</button>
+    </fieldset>
+  </form>
+  
+  <form class="animate__animated animate__fadeInLeft">
+    <fieldset>
+      <legend>Seguridad</legend>
+      <div class="mb-3">
+        <label for="disabledSelect" class="form-label">Pregunta de seguridad:</label>
+        <select id="select-perfil" class="form-select">
+          <option>¿Como se llama tu perro?</option>
+          <option value="1">¿Mejor amigo de la infancia?</option>
+        <option value="2">¿Como se llama tu gato?</option>
+         </select>
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Respuesta de seguridad:</label>
+        <input type="text"  id="input-pass" class="form-control" placeholder="••••••••••">
+      </div>
+        <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Contraseña:</label>
+        <input type="text"  id="input-pass" class="form-control" placeholder="••••••••••">
+      </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </fieldset>
+  </form>
 
     <hr width=100%>
 </header>

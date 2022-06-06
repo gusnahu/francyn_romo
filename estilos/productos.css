@@ -25,6 +25,14 @@
     flex-wrap: wrap;
     margin-top: 5%;
 }
+.cards-productos-section2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .img-card-product{
     width: auto;
     height: 250px;

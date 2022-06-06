@@ -4,23 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../estilos/style.css">
     <link rel="stylesheet" href="../estilos/productos.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <title>Productos</title>
     <script src="https://kit.fontawesome.com/a3c4adb788.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav class="header">
-        <a href="../index.html"><img src="../img/zyro-image.png" alt="" class="logo"></a>    
-        <a href="Productos.html"><button type="button"class="header-buttons">Productos</button></a></a>
-        <a href="Quienes_Somos.html"><button type="button" class="header-buttons">Quienes Somos</button></a>
-        <a href="Contacto.html"><button type="button" class="header-buttons">Contacto</button></a>
-        <a href="Carrito.html"><button type="button" class="header-buttons">Carrito</button></a>
-        <a href="../pages/perfil.html" class="user-icon"><i class="fa-solid fa-circle-user"></i></a>
-        <a href="#" class="menu-icon"><img src="../img/menu.png" alt="menu icono" width="50" height="50"/></a>
-    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-light" id="header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><div class="animate__animated animate__heartBeat" >
+            <a href="../index.html"><img src="../img/zyro-image.png" alt="" class="logo"></a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienes_somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" href="./carrito.html"><img src="../img/carro.png"></a>
+              </li>
+              <li class="user-icon">
+              <a href="../pages/perfil.html"><i class="fa-solid fa-circle-user"></i></a>
+            </li>
+            
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+    </div>
+</div>
+</nav>
         
     </header>
     
@@ -64,7 +90,7 @@
     </div>
 </div>
 
-<div class="cards-productos-section">
+<div class="cards-productos-section2">
     <div class="tarjeta">
         
         <div class="title-card">BATMAN ARTICULABLE</div>
@@ -100,6 +126,23 @@
         </div>
     </div>
 </div>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+  <hr width=100%>
+
 
 
 <div class="container">

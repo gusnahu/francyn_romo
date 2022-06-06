@@ -4,43 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/style.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos/style.css">
     <title>Contacto</title>
     <script src="https://kit.fontawesome.com/a3c4adb788.js" crossorigin="anonymous"></script>
 </head>
 <body>
         
     <header>
-        <nav class="header">
-        <a href="../index.html"><img src="../img/zyro-image.png" alt="" class="logo"></a>    
-        <a href="Productos.html"><button type="button"class="header-buttons">Productos</button></a></a>
-        <a href="Quienes_Somos.html"><button type="button" class="header-buttons">Quienes Somos</button></a>
-        <a href="Contacto.html"><button type="button" class="header-buttons">Contacto</button></a>
-        <a href="Carrito.html"><button type="button" class="header-buttons">Carrito</button></a>
-        <a href="../pages/perfil.html" class="user-icon"><i class="fa-solid fa-circle-user"></i></a>
-        <a href="#" class="menu-icon"><img src="../img/menu.png" alt="menu icono" width="50" height="50"/></a>    
-    </nav>
-        
+   
+    <nav class="navbar navbar-expand-lg bg-light" id="header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><div class="animate__animated animate__heartBeat" >
+            <a href="../index.html"><img src="../img/zyro-image.png" alt="" class="logo"></a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienes_somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" href="./carrito.html"><img src="../img/carro.png"></a>
+              </li>
+              <li class="user-icon">
+              <a href="./perfil.html"><i class="fa-solid fa-circle-user"></i></a>
+            </li>
+            
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+    </div>
+</div>
+</nav>
     </header>
     
     <h1 class="title">Contacto</h1>
     <hr width=100%>
-    
-    <form method="get">
-            
-        Nombre y apellido: <input class="info-contacto" type="text" name="nombre" /><br />
-        Correo electrónico: <input class="info-contacto" type="text" name="correo" /><br />
-        Teléfono: <input class="info-contacto" type="text" name="telefono" /><br />
-        Motivo: <input class="info-contacto" type="text" name="correo" /><br />
-        Mensaje: <input class="info-contacto" type="text" name="correo" /> <button type="button">Enviar</button><br />
+    <div class="form-contact">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre y apellido:</label>             
+        <input type="email" class="form-control" id="input-contact" id="exampleFormControlInput1" placeholder="Nombre y apellido">           
+    </div>           
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email:</label>             
+        <input type="email" class="form-control" id="input-contact" id="exampleFormControlInput1" placeholder="name@example.com">           
+    </div>           
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Telefono:</label>             
+        <input type="email" class="form-control" id="input-contact" id="exampleFormControlInput1" placeholder="+54 9 11 1234 5678">           
+    </div>         
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Motivo:</label>             
+        <input type="email" class="form-control" class="input-contact" id="exampleFormControlInput1" placeholder="name@example.com">           
+    </div>             
+        <div class="mb-3">             
+            <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta:</label>             
+            <textarea class="form-control" id="input-contact" id="exampleFormControlTextarea1" rows="3"></textarea>           
+        </div>
+    </div>
+        <button type="submit" class="btn btn-primary" id="btn-enviar">Enviar</button>
         
-        </form>
 
 
-
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6567.418038093036!2d-58.4597470654323!3d-34.61151881974635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca02e0255ad5%3A0x3283f4d0f8f83476!2sVelatorio%20Tres%20Arroyos!5e0!3m2!1ses-419!2sar!4v1651182383515!5m2!1ses-419!2sar"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.096854346024!2d-58.431381207113766!3d-34.609870526779815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca5e41da17ff%3A0xebce9fad2698f23f!2sAlmagro%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1654547561656!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+        
     <hr width=100%>
     
     <div class="container">
