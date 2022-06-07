@@ -28,19 +28,8 @@ i{
 
 /*--------------------HEADER CSS--------------------*/
 #header{
-<<<<<<< HEAD
 
 background: #373B44;  /* fallback for old browsers */
-=======
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  top: 0;
-  width: 100%; */
-  
-  background: #373B44;  /* fallback for old browsers */
->>>>>>> 83e27a0370b28ef9d97999c6736ed260c64a2db4
 background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -111,20 +100,11 @@ text-align:center;
 
 
 .map{
-<<<<<<< HEAD
-    display: flex;
-    width: 50%;
-    height: 50%;
-    float: right;
-    margin-top: 10%;
-    margin-bottom: 5%;
-=======
 float: right;
     width: 600px; height: 450px ;
     margin-bottom: 10px;
     margin-right: 5px;
     margin-top: 10px;   
->>>>>>> 83e27a0370b28ef9d97999c6736ed260c64a2db4
 }
 /*--------------------CARRITO--------------------*/
 .mas{
@@ -169,24 +149,11 @@ float: right;
 #input-pass{
     width: 34.2%;
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 83e27a0370b28ef9d97999c6736ed260c64a2db4
 /*--------------------MEDIA--------------------*/
 @media screen and (max-width: 1208px){
     .header-buttons{
         display: none;
     }
-<<<<<<< HEAD
-    .div-img-quienes-somos{
-        margin: 0 auto;
-        max-width: 90%;
-    }
-=======
-
->>>>>>> 83e27a0370b28ef9d97999c6736ed260c64a2db4
     .menu-icon{
         display: block;
     }
@@ -195,7 +162,6 @@ float: right;
     }
 }
 
-<<<<<<< HEAD
 
 @media screen and (max-width: 991px) {
     .user-icon {
@@ -209,19 +175,11 @@ float: right;
     }
     
  }
-=======
-@media screen and (max-width: 991px) {
-    .user-icon {
-        margin-right: 100%;
-    }
-}
->>>>>>> 83e27a0370b28ef9d97999c6736ed260c64a2db4
 
 @media screen and (max-width: 768px) {
     .logofooter{
         margin-right: 15%;
     }
-<<<<<<< HEAD
     .div-img-quienes-somos{
         display: grid !important;
         margin: 0 auto;
@@ -238,9 +196,6 @@ float: right;
 
 
 
-=======
-}
->>>>>>> 83e27a0370b28ef9d97999c6736ed260c64a2db4
 
 /*--------------------CONTACTO--------------------*/
 .info-contacto {
@@ -252,35 +207,7 @@ float: right;
     margin-top: 5%;
 }
 
-<<<<<<< HEAD
-.input-contact{
-width: 10%;
-
-}
-
-.div-img-quienes-somos{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    max-width: 80%;
-}
-.img-who{
-    margin-right: 30px;
-    width: 30%;
-    height: auto;
-    
-}
-.form-contact{
-    max-width: 80% !important;
-    margin: 0 auto !important;
-}
-
-#btn-enviar {
-    margin-left: 10%;
- }    
-=======
 #input-contact{
 width: 40%;
 
 }
->>>>>>> 83e27a0370b28ef9d97999c6736ed260c64a2db4
