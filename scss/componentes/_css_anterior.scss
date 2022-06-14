@@ -1,0 +1,215 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+
+
+/*--------------------LOGO--------------------*/
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+i{
+    color: rgb(0, 0, 0);
+    font-size: 230%;
+    position: relative;
+    left: 97.7%;
+    
+}
+
+
+/*--------------------BANNER--------------------*/
+.banner{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+
+/*--------------------HEADER CSS--------------------*/
+#header{
+
+background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header-buttons{
+ background-color: rgb(221, 163, 37);
+ border-radius: 5px;
+ padding: 10px;
+ color: #1d1d1d;
+ border: none;
+ cursor: pointer;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+/*--------------------BAJO BANNER--------------------*/
+.bajobanner1{   
+    width: 150px;
+    height: auto;
+    margin: 0px 20px 20px 20px;}
+
+.bajobanner2{
+    width: 200px;
+    height: auto;
+    margin: 38px 20px 20px 20px;
+    
+}
+.bajobanner3{
+    width: 90px;
+    height: auto;
+    margin: 14px 20px 20px 20px
+}
+
+.bajobanner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.money{
+    display: block;
+    text-align:center;
+}
+
+.truck{
+display: block;
+text-align:center;
+
+}
+
+.firstplace{
+display: block;
+text-align:center;
+}
+
+
+.map{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+/*--------------------CARRITO--------------------*/
+.mas{
+   display: inline-block;
+}
+
+.finalizar{
+    float: right;
+}
+
+
+/*--------------------FOOTER--------------------*/
+
+.logofooter{
+    width: 60%;
+    height: 80%;
+    float: right;
+}
+
+
+/*--------------------PERFIL--------------------*/
+
+.img-perfil {
+    height: 15%;
+    width: 15%;
+    float: right;
+    margin-right: 1%;
+}
+
+#select-perfil{
+    width: 34%;
+}
+
+#input-pass{
+    width: 34.2%;
+}
+
+
+/*--------------------MEDIA--------------------*/
+@media screen and (max-width: 1208px){
+    .header-buttons{
+        display: none;
+    }
+    .div-img-quienes-somos{
+        margin: 0 auto;
+        max-width: 90%;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #footer-footer{
+        margin-top: 5% !important;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .user-icon {
+        margin-right: 100%;
+        margin-top: 1%;
+    }
+    .img4{
+        display: none;
+        margin-top: 10%;
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logofooter{
+        margin-right: 15%;
+    }
+    .div-img-quienes-somos{
+        display: grid !important;
+        margin: 0 auto;
+    }
+
+    .form-control{
+        width: 60% !important;
+    }
+}
+
+
+/*--------------------CONTACTO--------------------*/
+.info-contacto {
+    margin-top: 5px;
+}
+
+/* CAROUSEL */
+.carousel{
+    margin-top: 5%;
+}
+
+.input-contact{
+width: 10%;
+
+}
+
+.div-img-quienes-somos{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.form-contact{
+    max-width: 80% !important;
+    margin: 0 auto !important;
+}
+
+#btn-enviar{
+    margin-left: 10%;
+    
+}
