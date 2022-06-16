@@ -1,0 +1,12 @@
+%money{
+    display: block;
+    text-align:center;
+}
+
+.truck{
+    @extend %money;
+    }
+    
+    .firstplace{
+    @extend %money;
+    }
